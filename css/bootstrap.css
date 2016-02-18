@@ -4349,9 +4349,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 9px 10px;
   margin-top: 13px;
   margin-bottom: 13px;
-  background-color: transparent;
+  background-color: rgb(94, 202, 214);
   background-image: none;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 4px;
 }
 .navbar-toggle:focus {
