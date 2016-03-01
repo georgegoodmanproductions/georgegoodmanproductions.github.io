@@ -8,7 +8,7 @@
  * http://ReactiveRaven.github.com/jqBootstrapValidation/
  */
 
-if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
+if( /iPhone|iPod/i.test(navigator.userAgent) )     
 {
    window.location = "georgegoodmanproductions.github.io/mobile";
 
