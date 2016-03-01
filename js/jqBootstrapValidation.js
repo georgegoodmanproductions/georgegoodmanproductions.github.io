@@ -10,8 +10,7 @@
 
 if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
 {
-   var url = "http://georgegoodmanproductions.github.io/mobile3";    
-   $(location).attr('href',url);
+   window.location = "georgegoodmanproductions.github.io/mobile3";
 
 }
 
