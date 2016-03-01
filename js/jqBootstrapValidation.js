@@ -10,7 +10,7 @@
 
 if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
 {
-   window.location = "georgegoodmanproductions.github.io/mobile3";
+   window.location = "georgegoodmanproductions.github.io/mobile";
 
 }
 
