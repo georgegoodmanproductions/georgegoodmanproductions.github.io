@@ -27,7 +27,17 @@ if (typeof jQuery === 'undefined') {
 +function ($) {
   'use strict';
 
-  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+     
+    // WISTIA 
+    
+
+
+   
+  
+
+    
+    
+    // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
   // ============================================================
 
   function transitionEnd() {
@@ -48,12 +58,6 @@ if (typeof jQuery === 'undefined') {
 
     return false // explicit for ie8 (  ._.)
   }
-    //Wistia Script
-
-    $("#selector").click(function(){
-  $.getScript("https://fast.wistia.com/assets/external/E-v1.js");
-});
-
 
   // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
