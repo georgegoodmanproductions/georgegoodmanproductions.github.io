@@ -31,27 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-    <script>
-    window._wq = window._wq || [];
-        _wq.push({ "_all": function(video) {
-            function init() {
-            var vid = document.getElementById("myVideo");
-            videoFoam:true
-            if ( /Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
-                
-                function goFullscreen() {
-                video.webkitEnterFullscreen();
-                }
 
-            }   
-            else {
-                popover:true
-            }
-        }});
-            
-        
-    </script>
 
 </head>
     
@@ -117,7 +97,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item" id="myVideo">
+                <div class="col-sm-4 portfolio-item">
                  
                     
                     <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
@@ -128,10 +108,8 @@ _wq.push({ "_all": function(video) {
 
   video.bind('play', function() {
       
-var vid;
+      var vid;
       function init() {
-
-        vid = document.getElementById("myVideo");
 
         vid.addEventListener("loadedmetadata", addFullscreenButton, false);
 
