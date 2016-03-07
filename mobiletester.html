@@ -127,23 +127,8 @@ window._wq = window._wq || [];
 _wq.push({ "_all": function(video) {
 
   video.bind('play', function() {
-      function addFullscreenButton() {
+      vid.webkitEnterFullscreen();
 
-        if (vid.webkitSupportsFullscreen) {
-
-            var fs = document.getElementById("fs");
-
-            fs.style.visibility = "visible";
-
-        }
-
-    }
-
-    function goFullscreen() {
-
-        vid.webkitEnterFullscreen();
-
-    }
     video.time(10);
     return video.unbind;
   });
