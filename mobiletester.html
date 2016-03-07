@@ -127,8 +127,12 @@ window._wq = window._wq || [];
 _wq.push({ "_all": function(video) {
 
   video.bind('play', function() {
-      vid.webkitEnterFullscreen();
+      
+    function goFullscreen() {
 
+        vid.webkitEnterFullscreen();
+
+    }
     video.time(10);
     return video.unbind;
   });
