@@ -121,14 +121,15 @@
                  
                     
                     <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-                    <div class="wistia_embed wistia_async_9x53cj1xu4 videoFoam=true"></div>
+                    <div id="myVideo" class="wistia_embed wistia_async_9x53cj1xu4 videoFoam=true"></div>
                     <script>
 window._wq = window._wq || [];
 _wq.push({ "_all": function(video) {
 
   video.bind('play', function() {
       
-function init() {
+var vid;
+      function init() {
 
         vid = document.getElementById("myVideo");
 
