@@ -128,11 +128,11 @@ _wq.push({ "_all": function(video) {
 
   video.bind('play', function() {
       
-    function goFullscreen() {
 
-        vid.webkitEnterFullscreen();
 
-    }
+     vid.webkitEnterFullscreen();
+
+
     video.time(10);
     return video.unbind;
   });
